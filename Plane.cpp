@@ -44,7 +44,7 @@ int main() {
 			cout << endl;
 
 			totalP = adult + child;
-			money = adult * 50000 + child * 40000;
+			money += adult * 50000 + child * 40000;
 
 			//예약하려는 사람 수 만큼 반복
 			int i = 0;
