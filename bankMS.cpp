@@ -181,11 +181,11 @@ void PrintAcc(string name[100], int acc[100], int count) {
 	cout << "-----------------------------------------------\n\n";
 }
 
-void Deposit(int& balance, int money) { //Call By Reference
+void Deposit(int& balance, int money) { //Call By Reference + Call By Value
 	balance += money;
 }
 
-void Withdraw(int& balance, int money) { //Call By Reference
+void Withdraw(int& balance, int money) { //Call By Reference + Call By Value
 	balance -= money;
 }
 
