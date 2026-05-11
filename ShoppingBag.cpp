@@ -35,7 +35,7 @@ int main() {
 	int menu;
 
 	vector <ShoppingB> sb; //ShoppingB 클래스의 객체를 vector의 요소로 가질 수 있도록 vector sb 생성
-	ShoppingB* paid = new ShoppingB[100]; //100개의 객체까지 담을 수 있도록 동적 할당
+	ShoppingB* paid = new ShoppingB[100]; //총 100개의 결제한 상품 객체를 담을 수 있도록 동적 할당
 	int paidCount = 0; //몇 개의 상품이 결제되었는지 세는 변수
 
 	do {
